@@ -1,0 +1,28 @@
+
+
+.bg-1 {
+    background-color: #324B77;
+  }
+  .bg-2 {
+    background-color: hsl(218, 81%, 75%)
+  }
+  .bg-3 {
+    background-color: #f2f6f6;
+  }
+
+  #btn {
+    background-color: #324B77 ;
+    color: #fff;
+    font-weight: 700;
+  }
+  .font-w700{
+    font-weight: 700;
+  }
+  .title{
+    font-family: 'Caprasimo', cursive;
+    color: #fff;
+    letter-spacing: 15px;
+  }
+ #cuentaOD{
+  width: 300px;
+}

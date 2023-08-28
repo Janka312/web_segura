@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Inter:wght@400;600&display=swap');
+/*{
+    border: 1px solid black;
+}
+
+/*Login.css*/
+
+.login {
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,50,0.7),rgba(0,0,50,0.7)), url(../images/fondoLogin1.png);
+    background-position: center;
+    background-size: cover;
+}
+.card-body h1 {
+font-size: 25px;
+text-transform: uppercase;
+font-weight: 700;
+}
+
+.bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.6) !important;
+    width: 350px;
+}
+
+/* DASHBOARD */
+.ingresoGasto{
+    height: auto;
+    width: 275px;
+}
+.cuenta{
+    border: 1px solid  #ccc ;
+}
+.ingresoGasto, .ingreso, .egreso {
+    border-radius: 10px;
+    border: 1px solid #bcbcbc;
+}
+
+.card-title {
+    text-transform: uppercase;
+    width: 225px;
+}
+.cuentaIE{
+    border: 1px solid #ccc;
+    width: 240px;
+
+}
+.registro{
+    width: 700px;
+}
+
+#montoInicial, #montoIngreso, #montoEgreso, #montoTrans {
+    width: 200px;
+}
+
+#mesSeleccionado{
+	width: 150px;
+}
+
+
+/* Estilo para el hover */
+.banner:hover {
+  color: #324B77 ; 
+}
+.banner{
+	color: #fff;
+}
+
+
+.falling-text {
+    position: relative;
+    animation-name: fall;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
